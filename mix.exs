@@ -59,7 +59,7 @@ defmodule PipelineCi.MixProject do
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.10", only: :test},
       {:sobelow, "~> 0.11.1", only: :dev},
-      {:dialyxir, "~> 1.1", only: [:dev], runtime: false},
+      {:dialyxir, "~> 1.1", only: [:dev], runtime: false}
     ]
   end
 
